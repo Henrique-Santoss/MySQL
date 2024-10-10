@@ -25,5 +25,5 @@ select avg(peso) from gafanhotos;
 select min(peso) from gafanhotos
 where sexo = 'F' and nacionalidade not like 'Brasil' and nascimento between '1990-01-01' and '2000-12-31';
 
-select count(altura) from gafanhotos
+select count(altura) from gafanhotos 
 where sexo = 'F' and altura > '1.9';
