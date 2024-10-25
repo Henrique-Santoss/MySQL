@@ -31,4 +31,4 @@ select avg(carga) from cursos;
 select carga, count(*) from cursos
 where ano > 2015
 group by carga
-having carga > (select avg(carga) from cursos);
+having carga > (select avg(carga) from cursos); 
