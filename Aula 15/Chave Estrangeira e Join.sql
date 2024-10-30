@@ -30,4 +30,4 @@ order by g.nome;
 select g.nome, c.nome, c.ano //Left outer join irá dar preferencia a tabela da direita
 from gafanhotos as g left outer join cursos as c // right outer join ou right join
 on c.idcursos = g.cursopreferido
-order by g.nome; 
+order by g.nome;  
